@@ -41,6 +41,15 @@
         offset: 74,
     });
 
+    // submit the form
+    $("#sendMessageButton").click(function(){
+        var email = $("#email").val();
+        var name = $("#name").val();
+        alert("Your name: " + name);
+        alert("Your email: " + email);
+        
+    });
+
     // Collapse Navbar
     var navbarCollapse = function () {
         if ($("#mainNav").offset().top > 100) {
